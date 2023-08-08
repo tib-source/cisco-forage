@@ -1,5 +1,5 @@
 :root{ 
-  --navbar-height: 10svh;
+  --navbar-height: 15svh;
 }
 .root{ 
   margin: 0;
@@ -8,18 +8,13 @@
   width: 100svw;
 }
 
-.app__banner{ 
-  height: 10vh;
-  background-color: burlywood;
-  text-align: center;
-  padding: 1rem;
-}
 
-.main__body{ 
-    height: calc(100svh - var(--navbar-height));
-  display: flex;
+  .main__body{ 
+      height: calc(100svh - var(--navbar-height));
+    display: flex;
   justify-content: center;
   align-items: center;
+  background: #FBFBFB;
 }
 .body__graph{
   display: flex;
@@ -28,6 +23,6 @@
 .graph{
   width:500px;
   aspect-ratio: 1.9;
-  background-color: aqua ;
+  background-color: #FF9F1C ;
 }
 

@@ -1,0 +1,15 @@
+.app__banner{ 
+    text-align: center;
+    height: var(--navbar-height);
+    padding: 5svh;
+    background-color: #201A23;
+    border-bottom: 2px solid 8FBB99;
+    box-shadow: 0vw 0vw 5vw rgb(0, 0, 0);
+  }
+
+
+
+.app__banner h1{  
+  color: #FBFBFB;
+  text-shadow: .1rem .1rem .1rem #8FBB99;
+}
